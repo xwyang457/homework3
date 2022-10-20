@@ -77,7 +77,7 @@ position: absolute;
 border around all elements in focus.*/
 *:focus {
   border: 2px solid black;
-  }
+}
 
 footer{
   background-color: black;
