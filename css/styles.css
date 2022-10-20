@@ -35,7 +35,7 @@ nav a{
 }
 
 nav a:hover{
-  text-decoration-line: underline;
+  text-decoration: underline;
   text-decoration-style: wavy;
 }
 
@@ -51,7 +51,6 @@ nav a:hover{
   /*Your code here - place 500px left and 40px higher */
   left: -500px;
   top: -40px;
-
 }
 
 .skip a:focus{
@@ -73,14 +72,12 @@ link to the exact top of the page.*/
   position: absolute;
 }*/   /*repeated with the above, not needed here.*/
 
-
 /*Your code here*/
 /*Add the selector and code to put a 2px black
 border around all elements in focus.*/
-*:focus {
+* :focus {
   border: 2px solid black;
 }
-
 
 footer{
   background-color: black;
@@ -94,11 +91,10 @@ footer{
 nav{
   background-color: #ddd;
   padding: 20px 0;
-  text-align: left;
+  text-align: center;
   /*Your code here*/
   /*Span the top row*/
   grid-column: 1 / -1;
-  grid-row: 1 / span 1;
 
 }
 
@@ -116,8 +112,6 @@ header{
   min-height: 400px;
   /* Span one row */
   grid-column: 1 / -1;
-  grid-row: 1 / span 1;
-
 }
 
 header p{
@@ -153,6 +147,7 @@ img {
    grid-column: 1 / -1;
    max-height: 500px;
    overflow: hidden;
+
 }
 
 .about, .about-image{
@@ -170,7 +165,7 @@ img {
 .clients, .clients-image{
   /*Your code here */
   /* See documentation for mobile view */
-  grid-row: 5 /span 1;
+  grid-row: 5 / span 1;
 }
 
 .contact, .contact-image{
@@ -204,9 +199,8 @@ img {
     /*Your code here */
     /* See documentation for desktop view */
     display: grid;
-    grid-template-columns: 50px auto 500px auto 100px;
+    grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 70px repeat(5, 400px) 100px;
-    align-items: center;
   }
 
   nav{
@@ -214,20 +208,19 @@ img {
     text-align: right;
     padding: 35px 0px;
     align-self: center;
-
   }
 
    .about, .clients, .method-image, .contact-image {
     /*Your code here */
     /* See documentation for desktop view */
     grid-column: 3 / span 2;
-
   }
 
   .method, .contact, .about-image, .clients-image {
     /*Your code here */
     /* See documentation for desktop view */
     grid-column: 2 / span 2;
+
   }
 }  /*End the media query*/
 
