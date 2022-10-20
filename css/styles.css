@@ -203,7 +203,6 @@ overflow: scroll;
   display: grid;
   grid-template-columns: 50px auto 500px auto 50px;
   grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
-  align-items: center;  /*added to keep it consistent with the picture.*/
 }
 
 nav{
