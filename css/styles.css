@@ -94,7 +94,7 @@ padding: 20px 0;
 text-align: left;
 /*Your code here*/
 /*Span the top row*/
-grid-column: 1 / -1;
+grid-column: 1 / span all;
 grid-row: 1 / span 1;
 
 }
@@ -112,7 +112,7 @@ background-image: url('../images/header.jpg');
 background-color: #858585;
 min-height: 400px;
 /* Span one row */
-grid-column: 1 / -1;
+grid-column: 1 / span all;
 grid-row: 2 / span 1;
 }
 
