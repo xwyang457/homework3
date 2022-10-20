@@ -137,12 +137,15 @@ header p{
   grid-column: 2 / span 1;
 }
 
+header{
+  width: 100%;
+}
+
 .about-image, .method-image, .clients-image, .contact-image{
    /*Your code here */
    /* See documentation for mobile view */
   grid-column: 1 / -1;
   max-height: 500px;
-  width: 100%;
   overflow: hidden;
 }
 
