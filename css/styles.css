@@ -105,7 +105,7 @@ background-position: center;  /* Parallax effect */
 background-repeat: no-repeat; /* Parallax effect */
 background-size: cover;       /* Parallax effect */
 color: white;
-height: 400px;                /* Parallax effect */
+/* height: 400px;*/               /* Parallax effect */
 /* Your code here */
 /* Set background-image to header.jpg in the images folder */
 background-image: url('../images/header.jpg');
