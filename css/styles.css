@@ -95,6 +95,7 @@ nav{
   /*Your code here*/
   /*Span the top row*/
   grid-column: 1 / -1;
+  grid-row: 1 / span 1;
 
 }
 
@@ -112,6 +113,7 @@ header{
   min-height: 400px;
   /* Span one row */
   grid-column: 1 / -1;
+  grid-row: 2 / span 1;
 }
 
 header p{
@@ -200,7 +202,8 @@ img {
     /* See documentation for desktop view */
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: 70px repeat(5, 400px) 100px;
+    grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
+    align-items: center;
   }
 
   nav{
